@@ -73,7 +73,11 @@ with left:
         img = Image.open(up).convert("RGB") if up else None
     else:
         ex = examples()
-        choice = st.selectbox("Сценарий", list(ex))
+        try:  # ?ex=N preselects a scenario (deep links / screenshots)
+            start = min(int(st.query_params.get("ex", 0)), len(ex) - 1)
+        except ValueError:
+            start = 0
+        choice = st.selectbox("Сценарий", list(ex), index=start)
         img = Image.open(ex[choice]).convert("RGB")
     seller = st.text_input("ID продавца", "seller_new_0001")
     price = st.number_input("Цена, ₽", value=15_000, step=500)
