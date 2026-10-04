@@ -1,0 +1,30 @@
+{
+  "machine": {
+    "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "threads": 4,
+    "torch": "2.5.1+cu124",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU"
+  },
+  "pHash": {
+    "p50_ms": 3.4778999997797655,
+    "p95_ms": 7.028359999458188,
+    "images_per_sec_batch16": 321.22863528601897
+  },
+  "SSCD-288": {
+    "p50_ms": 17.892150000989204,
+    "p95_ms": 21.788010001091603,
+    "images_per_sec_batch16": 54.385349021958824
+  },
+  "DINOv2": {
+    "p50_ms": 18.527049999647716,
+    "p95_ms": 23.56950999919718,
+    "images_per_sec_batch16": 74.8113118443858
+  },
+  "ai_detector": {
+    "p50_ms": 92.6843999995981,
+    "p95_ms": 92.95129000011002,
+    "images_per_sec_batch16": 12.230339736517845,
+    "name": "UniversalFakeDetect (CLIP, CVPR 2023)"
+  }
+}

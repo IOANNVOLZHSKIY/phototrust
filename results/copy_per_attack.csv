@@ -1,0 +1,45 @@
+method,attack,attack_ru,recall
+pHash,crop_80,Кроп 80%,0.0
+pHash,crop_55,Кроп 55%,0.0
+pHash,hflip,Зеркальное отражение,0.0
+pHash,rotate,Поворот 8–15°,0.0
+pHash,color_filter,Цветовой фильтр,0.895
+pHash,jpeg_low,Сильное JPEG-сжатие,0.92
+pHash,downscale,Уменьшение размера,0.92
+pHash,watermark,Текст / водяной знак,0.68
+pHash,border,Рамка,0.02
+pHash,screenshot,Скриншот объявления,0.0
+pHash,combo,Комбо (кроп+зеркало+фильтр+текст),0.0
+SSCD,crop_80,Кроп 80%,0.605
+SSCD,crop_55,Кроп 55%,0.0
+SSCD,hflip,Зеркальное отражение,0.98
+SSCD,rotate,Поворот 8–15°,0.07
+SSCD,color_filter,Цветовой фильтр,0.94
+SSCD,jpeg_low,Сильное JPEG-сжатие,0.88
+SSCD,downscale,Уменьшение размера,0.895
+SSCD,watermark,Текст / водяной знак,0.32
+SSCD,border,Рамка,0.44
+SSCD,screenshot,Скриншот объявления,0.0
+SSCD,combo,Комбо (кроп+зеркало+фильтр+текст),0.0
+SSCD-288,crop_80,Кроп 80%,0.5
+SSCD-288,crop_55,Кроп 55%,0.0
+SSCD-288,hflip,Зеркальное отражение,0.96
+SSCD-288,rotate,Поворот 8–15°,0.05
+SSCD-288,color_filter,Цветовой фильтр,0.94
+SSCD-288,jpeg_low,Сильное JPEG-сжатие,0.87
+SSCD-288,downscale,Уменьшение размера,0.91
+SSCD-288,watermark,Текст / водяной знак,0.235
+SSCD-288,border,Рамка,0.39
+SSCD-288,screenshot,Скриншот объявления,0.05
+SSCD-288,combo,Комбо (кроп+зеркало+фильтр+текст),0.0
+DINOv2,crop_80,Кроп 80%,0.045
+DINOv2,crop_55,Кроп 55%,0.0
+DINOv2,hflip,Зеркальное отражение,0.455
+DINOv2,rotate,Поворот 8–15°,0.03
+DINOv2,color_filter,Цветовой фильтр,0.875
+DINOv2,jpeg_low,Сильное JPEG-сжатие,0.82
+DINOv2,downscale,Уменьшение размера,0.74
+DINOv2,watermark,Текст / водяной знак,0.475
+DINOv2,border,Рамка,0.175
+DINOv2,screenshot,Скриншот объявления,0.235
+DINOv2,combo,Комбо (кроп+зеркало+фильтр+текст),0.0

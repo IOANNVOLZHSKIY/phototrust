@@ -1,0 +1,5 @@
+query,type,attack,source,group,score,matched
+shopee/0319699ba61a3359b66794ebf22d0763.jpg,hard_neg,,,112997688,0.9079666,2138bb57ac20dec9f96957f2b9346c7b.jpg
+shopee/dca46177c41ad03c470a8c8b4cf19696.jpg,hard_neg,,,705692897,0.8591248,5eb141e6f52b849dd981ec080088545c.jpg
+shopee/c3b511bbd1a96ef9f73e57fe97d1f5bd.jpg,hard_neg,,,3495538458,0.8753396,db4a64a52e9fc043740a8d9adbe79a8c.jpg
+shopee/d41b2e16a83a96ed6b2ca6a32a05178b.jpg,hard_neg,,,2314969351,0.90711164,07ae287807cc36ab5250c2ea58f1bcde.jpg

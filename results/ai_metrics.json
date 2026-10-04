@@ -1,0 +1,16 @@
+{
+  "UniversalFakeDetect (CLIP, CVPR 2023)": {
+    "model_id": "ufd",
+    "roc_auc": 0.8388771186440678,
+    "threshold_at_fpr5_real": 0.09248257093131541,
+    "tpr_ai_at_fpr5": 0.23728813559322035,
+    "fpr_edited_real_at_thr": 0.0875,
+    "default_0.5": {
+      "tpr_ai": 0.0,
+      "fpr_real": 0.00625,
+      "fpr_edited": 0.025
+    },
+    "n_real": 160,
+    "n_ai": 59
+  }
+}

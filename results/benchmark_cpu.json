@@ -1,0 +1,30 @@
+{
+  "machine": {
+    "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "threads": 4,
+    "torch": "2.5.1+cpu",
+    "device": "cpu",
+    "gpu": null
+  },
+  "pHash": {
+    "p50_ms": 2.193999999690277,
+    "p95_ms": 4.263630000332341,
+    "images_per_sec_batch16": 320.6014483200495
+  },
+  "SSCD-288": {
+    "p50_ms": 119.41779999961,
+    "p95_ms": 134.14872499943158,
+    "images_per_sec_batch16": 8.506456921822261
+  },
+  "DINOv2": {
+    "p50_ms": 90.41655000055471,
+    "p95_ms": 98.14009999963673,
+    "images_per_sec_batch16": 13.856888617879182
+  },
+  "ai_detector": {
+    "p50_ms": 862.9528000001301,
+    "p95_ms": 910.600445000091,
+    "images_per_sec_batch16": 1.2888932354664664,
+    "name": "UniversalFakeDetect (CLIP, CVPR 2023)"
+  }
+}

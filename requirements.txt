@@ -1,0 +1,13 @@
+torch>=2.1
+torchvision>=0.16
+timm>=1.0
+open_clip_torch>=2.24
+transformers>=4.40   # optional: Hugging Face AI-image detectors
+faiss-cpu>=1.8
+ImageHash>=4.3
+numpy
+pandas
+Pillow
+scikit-learn
+matplotlib
+streamlit>=1.40
